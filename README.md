@@ -3,7 +3,8 @@ Data Base 2 First Project
 
 ## Introduction
 
-## Credits
+
+## Collaborators
 
 
 ## Functions
