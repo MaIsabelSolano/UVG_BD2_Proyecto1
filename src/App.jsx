@@ -6,6 +6,9 @@ import { Route, Routes } from "react-router-dom"
 import './App.css'
 import Login from './routes/Login'
 import Menu from './routes/Menu'
+import Sales from './routes/Sales'
+import Inventory from './routes/Inventory'
+import Stats from './routes/Stats'
 
 
 
@@ -15,6 +18,9 @@ const App = () => (
     <Routes>
       <Route exact path="/" element = {<Login/>}/>
       <Route exact path="/menu" element = {<Menu/>}/>
+      <Route exact path="/ventas" element = {<Sales/>}/>
+      <Route exact path="/inventario" element = {<Inventory/>}/>
+      <Route exact path="/estadisticas" element = {<Stats/>}/>
     </Routes>
   </div>
   
